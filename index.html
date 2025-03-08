@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Surpresa Romântica</title>
+  <!-- Bootstrap CSS -->
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0/dist/css/bootstrap.min.css">
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Great+Vibes&family=Montserrat:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container py-5 text-center">
+    <h1 class="display-4 mb-4">Для женщины в моей жизни ❤️</h1>
+    
+    <div class="video-container mb-5">
+      <video id="video" class="w-100 shadow rounded" controls>
+        <source src="data/video_love.mp4" type="video/mp4">
+        Seu navegador não suporta vídeos.
+      </video>
+    </div>
+    
+    <div id="question" class="mb-5 position-relative">
+      <h2 class="text-danger fw-bold mb-4">Ты согласишься выйти за меня замуж? 💍</h2>
+      <div class="d-flex justify-content-center">
+        <button id="yesBtn" class="btn btn-success btn-lg me-3">Sim 💖</button>
+        <button id="noBtn" class="btn btn-danger btn-lg">Não 😢</button>
+      </div>
+    </div>
+    
+    <div id="message" class="d-none">
+      <h2 class="text-success fw-bold">
+        Ты лучшее, что когда-либо случалось в моей жизни! Я люблю тебя, моя королева! 😍💘
+      </h2>
+    </div>
+  </div>
+  
+  <script src="script.js"></script>
+</body>
+</html>
